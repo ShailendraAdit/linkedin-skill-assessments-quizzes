@@ -1543,7 +1543,7 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] Select `$(document.body)` first, then use .filter with the custom extension.
 - [ ] Use the custom extension with `.has()`.
 - [ ] Start with the custom extension, then use `.find` with a selector that exists in CSS to limit the selection.
-- [ ] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
+- [x] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
 
 #### Q79. What is the main difference between the ajaxStop and ajaxComplete global handlers?
 
